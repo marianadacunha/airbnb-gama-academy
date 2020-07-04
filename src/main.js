@@ -7,7 +7,7 @@ fetch(API_URL)
     const data = JSON.parse(result);
 
     data.map(element => {
-      const {photo, propertyType, name, price} = room;
+      const {photo, property_type, name, price} = element;
       row = document.getElementById("row");
 
       div = document.createElement("div");
@@ -18,7 +18,7 @@ fetch(API_URL)
 
       image = document.createElement("img");
       image.className = "card-img-top";
-      image.reference = photo;
+      image.src = photo;
 
       cardBody = document.createElement("div");
       cardBody.className = "card-body"
@@ -28,7 +28,7 @@ fetch(API_URL)
 
       propertyType = document.createElement("p");
       propertyType.className = "property-type";
-      propertyType.innerHTML = type;
+      propertyType.innerHTML = property_type;
 
       propertyName = document.createElement("p");
       propertyName.className = "property-name";
