@@ -60,3 +60,10 @@ img {
 .property-price {
   font-size: 15px;
 }
+
+.text-muted {
+  background-color: #FFFFFF;
+  box-shadow: -5px -5px 20px #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
