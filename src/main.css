@@ -44,3 +44,19 @@ img {
 .navbar-brand {
   color: #FF585D;
 }
+
+.property-type {
+  color: #FF585D;
+  margin-top: -10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.property-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.property-price {
+  font-size: 15px;
+}
