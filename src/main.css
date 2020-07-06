@@ -35,3 +35,12 @@ img {
   margin: 0px 20px 0px 20px;
   width: 300px;
 }
+
+.navbar {
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 20px #eeeeee;
+}
+
+.navbar-brand {
+  color: #FF585D;
+}
