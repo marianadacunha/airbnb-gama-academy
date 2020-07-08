@@ -1,3 +1,9 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .card-body {
   height: 150px;
   max-height: 150px;
@@ -26,14 +32,21 @@
 }
 
 img {
-  max-height: 200px;
-  max-width: 300px;
+  max-height: 220px;
+  max-width: 340px;
   width: 100%;
 }
 
 .card {
   margin: 0px 20px 0px 20px;
-  width: 300px;
+  width: 340px;
+}
+
+@media only screen and (max-width: 990px) {
+  .card {
+    margin: 0px 15px 0px 15px;
+    width: 330px;
+  }
 }
 
 .navbar {
