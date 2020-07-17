@@ -9,6 +9,12 @@
   max-height: 150px;
 }
 
+.card:hover {
+  box-shadow: 3px 2px 40px #929292;
+  transition: 1s;
+  border: none;
+}
+
 .property-type {
   color: #a52903;
   font-weight: bold;
