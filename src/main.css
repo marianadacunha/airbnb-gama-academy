@@ -9,12 +9,6 @@
   max-height: 150px;
 }
 
-.card:hover {
-  box-shadow: 3px 2px 40px #929292;
-  transition: 1s;
-  border: none;
-}
-
 .property-type {
   color: #a52903;
   font-weight: bold;
@@ -46,6 +40,12 @@ img {
 .card {
   margin: 0px 20px 0px 20px;
   width: 340px;
+  transition: 0.4s linear;
+}
+
+.card:hover {
+  box-shadow: 3px 2px 40px #929292;
+  transition: 0.5s linear;
 }
 
 @media only screen and (max-width: 990px) {
