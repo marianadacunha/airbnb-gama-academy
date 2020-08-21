@@ -5,7 +5,7 @@ This page is similar to AirBnB and uses an API to fetch some properties/rooms.</
 Javascript Vanilla and Flexbox  were used to organize the properties into cards on the screen.</br>
 This page was build using HTML, CSS, Bootstrap and JavaScript.
 
-### Preview
+# Preview
 
 You can see the live site clicking <a href="https://marianadacunha.github.io/fake-airbnb/">here</a>.</br>
 
